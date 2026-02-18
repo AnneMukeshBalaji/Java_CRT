@@ -2,13 +2,18 @@ import java.util.Scanner;
 
 public class SwitchCase {
   public static void main(String[] args) {
-    int n;
+    int choice;
     Scanner sc = new Scanner(System.in);
-    n = sc.nextInt();
-    if (n % 2 == 0) {
-      System.out.println("Even Number");
-    } else {
-      System.out.println("Odd Number");
+    choice = sc.nextInt();
+    switch (choice) {
+      case 1:
+        System.out.println("First");
+      case 2:
+        System.out.println("Second");
+      case 3:
+        System.out.println("Third");
+      default:
+        System.out.println("Wrong Choice");
     }
     sc.close();
   }
