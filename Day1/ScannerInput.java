@@ -28,4 +28,5 @@ public class ScannerInput {
  * 
  * TODO :
  * 1] Bypte means 8 bits ... MSB is Sign and next 7 bits for Magnitude
+ * 2] float price = 19.99f;
  */
