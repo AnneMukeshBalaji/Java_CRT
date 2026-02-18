@@ -10,6 +10,7 @@ public class SwitchCase {
         System.out.println("First");
       case 2:
         System.out.println("Second");
+        break;
       case 3:
         System.out.println("Third");
       default:
