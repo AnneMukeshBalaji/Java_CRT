@@ -1,0 +1,3 @@
+Best Case omega 
+Worst Case Big O 
+Average Case theta
