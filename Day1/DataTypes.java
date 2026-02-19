@@ -4,6 +4,7 @@ public class DataTypes {
     double height = 5.6;
     char grade = 'A';
     boolean passed = true;
-    System.out.printf("Age: %d\nHeight: %.1f\nBoolean: %b", age, height, passed);
+    System.out.printf("Age: %d\nHeight: %.1f\nBoolean: %b\nGrade : %c", age, height, passed, grade);
+
   }
 }
