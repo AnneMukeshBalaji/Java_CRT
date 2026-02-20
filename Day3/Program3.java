@@ -22,3 +22,15 @@ public class Program3 {
     sc.close();
   }
 }
+/*
+ *
+ *
+ * NOTE: When nextLine() is used after nextInt(), nextDouble(), or next(), it
+ * may skip input because those methods do not consume the newline character.
+ * The leftover newline is immediately consumed by nextLine(), resulting in an
+ * empty string.
+ * NOTE: use sc.nextLine() then String <variable-name> = sc.nextLine()
+ *
+ *
+ *
+ */
