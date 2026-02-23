@@ -11,6 +11,15 @@ public class BalanceAccount {
     this.balance = balance;
   }
 
+  public void deposite(double amount) {
+    if (amount > 0) {
+      balance += amount;
+      System.out.println("Deposite : " + amount);
+    } else {
+      System.out.println("Invalid Amount ");
+    }
+  }
+
   public void setAccountHolder(String accountHolder) {
     this.accountHolder = accountHolder;
   }
