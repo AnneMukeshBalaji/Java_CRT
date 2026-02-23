@@ -5,6 +5,12 @@ public class BalanceAccount {
   private String accountNumber;
   private double balance;
 
+  public BalanceAccount(String accountHolder, String accountNumber, double balance) {
+    this.accountHolder = accountHolder;
+    this.accountNumber = accountNumber;
+    this.balance = balance;
+  }
+
   public void setAccountHolder(String accountHolder) {
     this.accountHolder = accountHolder;
   }
