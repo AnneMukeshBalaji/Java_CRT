@@ -6,5 +6,8 @@ public class AccessPrivateData {
     int data = 20;
     ej.setData(data);
     System.out.println(ej.getData());
+    String name = "Diet";
+    ej.setName(name);
+    System.out.println(ej.getName());
   }
 }

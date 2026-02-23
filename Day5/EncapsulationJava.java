@@ -2,13 +2,22 @@ package Day5;
 
 public class EncapsulationJava {
   private int data;
+  private String name;
 
   public void setData(int data) {
     this.data = data;
   }
 
+  public void setName(String name) {
+    this.name = name;
+  }
+
   public int getData() {
     return this.data;
+  }
+
+  public String getName() {
+    return this.name;
   }
 }
 
