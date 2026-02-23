@@ -52,4 +52,18 @@ public class BalanceAccount {
   public double getBalance() {
     return this.balance;
   }
+
+  public static void main(String[] args) {
+    String accountHolder = "Vijay";
+    String accountNumber = "ACC12345";
+    double balance = 500000.0;
+    BalanceAccount ba = new BalanceAccount(accountHolder, accountNumber, balance);
+    double amount = 50000.0;
+
+    ba.deposite(amount);
+    System.out.println("Update Balance : " + ba.getBalance());
+    amount = 30000.0;
+    ba.withdraw(amount);
+    System.out.println("Update Balance : " + ba.getBalance());
+  }
 }
