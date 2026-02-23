@@ -20,6 +20,15 @@ public class BalanceAccount {
     }
   }
 
+  public void withdraw(double amount) {
+    if (amount > 0 && amount <= balance) {
+      balance -= amount;
+      System.out.println("Withdraw : " + amount);
+    } else {
+      System.out.println("Insuficient fund or invalid amount!");
+    }
+  }
+
   public void setAccountHolder(String accountHolder) {
     this.accountHolder = accountHolder;
   }
