@@ -26,6 +26,7 @@ public class ListInJava {
     System.out.println("After Inserting New Value");
     System.out.println(arrayString);
     // NOTE: Removing Element
+    System.out.println("After Removing the Value at index 2 ");
     arrayString.remove(2);
   }
 }
